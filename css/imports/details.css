@@ -1,0 +1,98 @@
+    .backCharacter {
+        padding: 20px;
+        margin: auto;
+        border-bottom: 1px solid var(--light-grey);
+        font-size: 16px;
+    }
+    
+    .backCharacter a {
+        font-size: 16px;
+        color: #026fd9;
+    }
+    
+    .backCharacter a:hover {
+        font-size: 18px;
+        color: #068fff;
+    }
+    
+    .tittleName {
+        width: 230px;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 20px 20px 10px 20px;
+        box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+        padding: 10px 0px 10px 40px;
+    }
+    
+    @media (min-width: 600px) {
+        .tittleName {
+            width: 300px;
+            font-size: 24px;
+            margin: 50px 20px 10px 40px;
+            padding: 10px 0px 10px 60px;
+        }
+        .container_detail {
+            margin: auto;
+        }
+        .card_detail {
+            width: 550px;
+            display: flex;
+            flex-direction: row-reverse;
+            height: 100%;
+            border: none;
+        }
+        .details-image {
+            width: 40%;
+        }
+        .detail-details {
+            width: 60%;
+            margin-left: 30px;
+        }
+        .details-image .image {
+            width: 240px;
+            height: 300px;
+            margin: 20px auto;
+            box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+        }
+        .card_detail p {
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+        .hidden {
+            display: none;
+        }
+    }
+    
+    @media (min-width: 850px) {
+        .tittleName {
+            font-size: 28px;
+            margin: 50px 20px 10px 130px;
+            padding: 10px 0px 10px 60px;
+        }
+        .container_detail {
+            margin-left: -100px;
+            margin-top: -80px;
+        }
+        .card-details {
+            width: 750px;
+        }
+        .details-image {
+            width: 40%;
+        }
+        .detail-details {
+            width: 60%;
+        }
+        .details-image .image {
+            width: 340px;
+            height: 390px;
+            margin: 20px auto;
+            box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+        }
+        .card_detail h2 {
+            font-size: 22px;
+        }
+        .card_detail p {
+            font-size: 16px;
+        }
+    }

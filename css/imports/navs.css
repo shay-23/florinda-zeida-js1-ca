@@ -1,0 +1,14 @@
+.nav-link {
+    color: white !important;
+}
+
+.nav-link.active {
+    color: var(--primary-colour) !important;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 10px;
+}
+
+.bg-dark {
+    background-color: var(--grey) !important;
+}

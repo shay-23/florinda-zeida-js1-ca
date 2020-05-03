@@ -1,0 +1,113 @@
+html,
+body {
+    background: #e8e8e8;
+    margin: 0;
+    height: auto;
+    color: #3b3b3d;
+}
+
+h1,
+h2,
+h3,
+h4,
+b {
+    font-family: Poppins, georgia, "sans-serif";
+}
+
+p {
+    font-family: open-sans, georgia, "sans-serif";
+}
+
+h1 {
+    font-size: 22px;
+    padding: 20px;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 20px 0px 10px 0px;
+}
+
+h2::first-letter {
+    font-size: 35px;
+}
+
+h3,
+b {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h4,
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nickname {
+    color: var(--primary-colour);
+    font-size: 20px;
+}
+
+.container-content {
+    padding: 10px;
+    height: 100%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.details {
+    margin: 20px auto;
+}
+
+
+/****-about-page*/
+
+#changeThe {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+    border: 1px solid lightslategray;
+}
+
+.textJokes {
+    margin: auto;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+    padding: 20px;
+}
+
+#changeThe h1 {
+    margin-bottom: 20px;
+}
+
+.textJokes h3 {
+    margin: 20px 0px 0px 0px;
+    font-size: 18px;
+}
+
+.textJokes h4 {
+    font-family: open-sans, georgia;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: white;
+    text-align: center;
+    color: var(--footer) !important;
+    font-size: 12px;
+    padding: 10px;
+}
